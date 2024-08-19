@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/22b79aad33.js" crossorigin="anonymous"></script>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind customs cdn -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- main container -->
+    <main class="max-w-screen-xl mx-auto p-4 lg:p-7">
+        <!-- header section -->
+        <header>
+            <!-- header container -->
+            <div class="flex items-center pt-3 mb-5">
+                <!-- header texts -->
+                <div>
+                    <h1 class="text-[#1C1C1C] text-5xl md:text-7xl font-extrabold pb-8">It's good <br>tea time at The
+                        <br>Tea House
+                    </h1>
+                    <p class="text-[#777777] text-xl font-medium mb-8">Tea and Botanical Solutions Supplier Give<br>
+                        Optimum
+                        Satisfaction To Your Taste Buds.</p>
+                    <button
+                        class="p-4 rounded-lg bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-[#FFFFFF] font-bold text-xl">Explore
+                        More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+                </div>
+                <!-- header image -->
+                <div class="relative">
+                    <!-- image -->
+                    <div><img class="w-full" src="./images/banner.png" alt=""></div>
+                    <!-- ratings -->
+                    <div class="flex items-center bg-white rounded-lg px-2 py2 shadow-lg md:px-10 lg:py-4 absolute top-28 md:top-80 md:left-32 lg:left-28">
+                        <!-- star -->
+                        <div><i class="fa-solid fa-star text-6xl text-[#FFC850]"></i></div>
+                        <!-- tests -->
+                        <div class="ml-4">
+                            <h2 class="text-[#1C1C1C] lg:text-5xl font-extrabold">5.00</h2>
+                            <h3 class="text-[#777777] font-semibold">Trust Pilot Ratings</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </main>
+</body>
+
+</html>
